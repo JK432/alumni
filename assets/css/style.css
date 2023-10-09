@@ -8,6 +8,22 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+    .scroll-container::-webkit-scrollbar {
+      width: 0.1em;
+      /* Adjust as needed */
+    }
+  
+    .scroll-container::-webkit-scrollbar-track {
+      background-color: transparent;
+      /* Make the track transparent */
+    }
+  
+    .scroll-container::-webkit-scrollbar-thumb {
+      background-color: transparent;
+      /* Make the scrollbar thumb (the draggable part) transparent */
+    }
+
+
 a {
   color: #18d26e;
   transition: 0.5s;
@@ -773,7 +789,7 @@ section {
 }
 
 #services .box {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 #services .icon {
@@ -790,8 +806,9 @@ section {
 #services .title {
   margin-left: 60px;
   font-weight: 700;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   font-size: 18px;
+  margin-top: 10px;
 }
 
 #services .title a {
