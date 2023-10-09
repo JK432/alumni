@@ -396,6 +396,8 @@ h6 {
   background: #000;
   overflow: hidden;
   position: relative;
+  text-align: left;
+
 }
 
 @media (max-height: 500px) {
@@ -438,7 +440,7 @@ h6 {
 }
 
 #hero .container {
-  text-align: center;
+  text-align: left;
 }
 
 #hero h2 {
@@ -455,8 +457,8 @@ h6 {
 }
 
 #hero p {
-  width: 80%;
-  margin: 0 auto 30px auto;
+  width:100%;
+  margin: 0 auto 0px auto;
   color: #fff;
 }
 
