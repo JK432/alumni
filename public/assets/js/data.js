@@ -21,14 +21,22 @@ var news = [
 
 var globals = [
   {
+    "background": "assets/img/gecbhlogo.png",
+    "profile": "assets/img/shamnahr.jpg",
+    "name": "Shamna HR",
+    "profession":"Professor and Dean of students affairs @ GECBH",
+    "disc": "Managing academics and student life at GECBH for conducive learning environment and holistic student development.",
+    "linkedin": "https://www.linkedin.com/in/shamna-hr-8ab178b6/"
+  },
+
+  {
     "background": "https://i.ibb.co/Cv7r535/download.png",
     "profile": "https://i.ibb.co/6Hm8v5T/1696217752295.jpg",
     "name": "Unnikrishnan",
-    "profession":"SDE @ NVIDIA",
+    "profession": "SDE @ NVIDIA",
     "disc": "Developing frameworks and SDKs leveraging the parallel computing architecture on NVIDIA GPU platforms for intelligent multimedia analytics.",
     "linkedin": "https://www.linkedin.com/in/unnikrishnan-kizhakkemadam-sreekumar-4a3b8922/"
   },
-
 
   {
     "background": "https://i.ibb.co/WFJNcKP/download.png",
@@ -76,9 +84,9 @@ var html = ``;
 globals.forEach(n => {
   // Append the HTML for each news item to the nelement variable
   html += `<div class="col-md-4">
-                <div class="card profile-card-2">
+                <div class="card profile-card-2 globalcard">
                   <div class="card-img-block">
-                    <img class="img-fluid" src=${n.background} alt="Card image cap">
+                    <img class="img-fluid globalbg" src=${n.background} alt="Card image cap">
                   </div>
                   <div class="card-body pt-5">
                     <img src=${n.profile} alt="profile-image" class="profile" />
